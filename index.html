@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Recording Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .instructions {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 60px;
+            font-size: 1.1em;
+            color: #b0b0b0;
+        }
+
+        .instructions p {
+            margin-bottom: 15px;
+        }
+
+        .instructions strong {
+            color: #ffffff;
+        }
+
+        .audio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .audio-item {
+            background-color: #2a2a2a;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .audio-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .audio-label {
+            font-size: 1.2em;
+            font-weight: 500;
+            margin-bottom: 12px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .pronunciation {
+            font-size: 0.95em;
+            color: #888;
+            text-align: center;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        audio {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            outline: none;
+        }
+
+        audio::-webkit-media-controls-panel {
+            background-color: #3a3a3a;
+        }
+
+        audio::-webkit-media-controls-play-button {
+            background-color: #4a4a4a;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .audio-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 20px;
+            }
+
+            .instructions {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MC Recording Guide</h1>
+        
+        <div class="instructions">
+            <p>
+                Please use <strong>Audacity</strong> or your preferred DAW to record your microphone sound. 
+                Feel free to do retakes until you are satisfied with the quality.
+                Provide a <strong>single recording in WAV format.</strong> You DON'T need to trim out individual recordings.
+            </p>
+            <p>
+                For submission, upload your recording to <strong>Google Drive</strong>, ensure permissions are set properly, 
+                and send the recording link to <strong>MC via Discord</strong>.
+            </p>
+            <p>
+                Click through the sample recordings below one at a time to understand what you need to record.
+            </p>
+        </div>
+
+        <div class="audio-grid">
+            <div class="audio-item">
+                <div class="audio-label">A</div>
+                <div class="pronunciation">Ahh</div>
+                <audio controls>
+                    <source src="Base Sounds/a.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">B</div>
+                <div class="pronunciation">Bee</div>
+                <audio controls>
+                    <source src="Base Sounds/b.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">C</div>
+                <div class="pronunciation">See</div>
+                <audio controls>
+                    <source src="Base Sounds/c.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">D</div>
+                <div class="pronunciation">Dee</div>
+                <audio controls>
+                    <source src="Base Sounds/d.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">E</div>
+                <div class="pronunciation">Eee</div>
+                <audio controls>
+                    <source src="Base Sounds/e.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">F</div>
+                <div class="pronunciation">Fah</div>
+                <audio controls>
+                    <source src="Base Sounds/f.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">G</div>
+                <div class="pronunciation">Ghi</div>
+                <audio controls>
+                    <source src="Base Sounds/g.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">H</div>
+                <div class="pronunciation">Hya</div>
+                <audio controls>
+                    <source src="Base Sounds/h.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">I</div>
+                <div class="pronunciation">Eh</div>
+                <audio controls>
+                    <source src="Base Sounds/i.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">J</div>
+                <div class="pronunciation">Jeh</div>
+                <audio controls>
+                    <source src="Base Sounds/j.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">K</div>
+                <div class="pronunciation">Kyeh</div>
+                <audio controls>
+                    <source src="Base Sounds/k.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">L</div>
+                <div class="pronunciation">Lah</div>
+                <audio controls>
+                    <source src="Base Sounds/l.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">M</div>
+                <div class="pronunciation">Mm</div>
+                <audio controls>
+                    <source src="Base Sounds/m.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">N</div>
+                <div class="pronunciation">Nya</div>
+                <audio controls>
+                    <source src="Base Sounds/n.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">O</div>
+                <div class="pronunciation">Oh</div>
+                <audio controls>
+                    <source src="Base Sounds/o.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">P</div>
+                <div class="pronunciation">Pee</div>
+                <audio controls>
+                    <source src="Base Sounds/p.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">Q</div>
+                <div class="pronunciation">Kyu</div>
+                <audio controls>
+                    <source src="Base Sounds/q.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">R</div>
+                <div class="pronunciation">Rah</div>
+                <audio controls>
+                    <source src="Base Sounds/r.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">S</div>
+                <div class="pronunciation">Sah</div>
+                <audio controls>
+                    <source src="Base Sounds/s.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">T</div>
+                <div class="pronunciation">Tee</div>
+                <audio controls>
+                    <source src="Base Sounds/t.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">U</div>
+                <div class="pronunciation">Ooh</div>
+                <audio controls>
+                    <source src="Base Sounds/u.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">V</div>
+                <div class="pronunciation">Vee</div>
+                <audio controls>
+                    <source src="Base Sounds/v.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">W</div>
+                <div class="pronunciation">Whh</div>
+                <audio controls>
+                    <source src="Base Sounds/w.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">X</div>
+                <div class="pronunciation">Saup</div>
+                <audio controls>
+                    <source src="Base Sounds/x.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">Y</div>
+                <div class="pronunciation">Yuh</div>
+                <audio controls>
+                    <source src="Base Sounds/y.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">Z</div>
+                <div class="pronunciation">Zee</div>
+                <audio controls>
+                    <source src="Base Sounds/z.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">Punct</div>
+                <div class="pronunciation">N-Dah</div>
+                <audio controls>
+                    <source src="Base Sounds/punct.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">Gwah</div>
+                <div class="pronunciation">Gwah</div>
+                <audio controls>
+                    <source src="Base Sounds/Gwah.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="audio-label">OK</div>
+                <div class="pronunciation">OK</div>
+                <audio controls>
+                    <source src="Base Sounds/OK.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
